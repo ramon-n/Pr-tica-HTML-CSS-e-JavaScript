@@ -1,0 +1,82 @@
+/*Estilo aplicado nos elementos da seção body*/
+body{
+    /*COnfiguração do estilo da fonte*/
+    font-family: Arial, Helvetica, sans-serif;
+    /*Configuração do alinhamento do texto*/
+    text-align: center;
+    /*configuração da cor do texto*/ 
+    color: white;
+    /*Configuração da cor do background*/
+    background-color: #333;
+    /*configuração do preenchimento do texto*/
+    padding: 0;
+    /*Configuração da Margem*/
+    margin: 0;
+}
+
+/*Configuração da localizaçãod dos itens do cabeçalho*/
+nav{
+    /*Ajusta os elementos na mesma linha*/
+    display: flex;
+    /*Coloca espaço entre os itens*/
+    justify-content: space-between;
+    /*Configuração do preenchimento do texto*/
+    padding: 20px;
+    /*Alinhamento do texto ao centro*/
+    align-items: center;
+    /*Configuraçãod de cor de borda*/
+    border-bottom: 1px solid #666;
+}
+
+/*configuração do distanciamento dos itens do cabeçalho*/
+nav ul {
+    /*alinha os itens na mesma linha*/
+    display: flex;
+    /*Definição do estilo de lista*/
+    list-style: none;
+}
+
+/*COnfiguração da distancia da Margem*/
+ul li {
+    /*Define tamanho da Margem a direita*/
+    margin-right: 12px;
+    
+}
+
+/*configuração do tempo de transação ao passar o mouse por cima das letras*/
+ul li a {
+    /*Definição da cor do texto da lista*/
+    color: #fff;
+    /*Definiçãod decoração do texto*/
+    text-decoration: none;
+    /*Configuração do tempo de transição*/
+    transition: 0.5s;
+}
+
+/*Configuraçãod da cor de transição ao passasr o mouse por cima das letras*/
+ul li a:hover {
+    /*Configuração de cor quando o mouse está sobre o elemento*/
+    color: rgb(15,89,150);
+}
+h1 {
+    /*Tamanho da fonte*/
+    font-size: 32px;
+}
+
+/*configuraçãod da borda da imagem*/
+img {
+    /*Configuração de borda da imagem (Pix3ls/cor)*/
+    border: 3px solid rgb(15,194,218);
+    /*configuração da altura da imagem*/
+    height: 300px;
+}
+
+/*Configurações do rodapé*/
+footer {
+    /*Configuraçãod de preencimento do rodapé*/
+    padding: 20px;
+    /*configuração de cor da bordar ao topo*/
+    border-top: 1px solid #666;
+    /*configuração de tamanho de margem*/
+    margin-top: 20px;
+}
